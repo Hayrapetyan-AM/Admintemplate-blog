@@ -5,7 +5,7 @@
 class Post
 {
 	private $data;
-	function __construct(array $data)
+	function __construct( $data)
 	{
 		$this->data = $data;
 	}
@@ -21,6 +21,7 @@ class Post
 		}
 		header("Location: " . $_SERVER['PHP_SELF']);
 	}
+
 
 	public function test(){
 		var_dump($this->data);

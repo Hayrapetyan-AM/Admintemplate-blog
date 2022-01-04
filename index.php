@@ -34,9 +34,7 @@
                 <!-- Blog entries-->
                 <div class="col-lg-8">
     <?php
-          
-
-        
+   
         require_once __DIR__.'\classes\Pagination\dbConn.php';
         require_once __DIR__.'\classes\Pagination\paginateClass.php';
 
@@ -87,10 +85,12 @@
                          <button class="btn btn-dark"  type="button"><a href="add-post.php" class="text-decoration-none text-white">Add new post</a></button>
                     </div>
                 </div>
+
             </div>
         </div>
+
         <!-- Footer-->
-        <footer class="py-5 bg-dark">
+        <footer class="py-5 bg-dark fixed-bottom">
             <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2021</p></div>
         </footer>
         <!-- Bootstrap core JS-->
